@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./animate.css" />
+    <link rel="stylesheet" href="./flexboxgrid.css.css" />
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-right">
+          <a href=""><i class="far fa-user"></i></a>
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+          <a href=""><i class="fas fa-home"></i></a>
+          <a href=""><i class="fas fa-search"></i></a>
+        </div>
+        <div class="nav-left">
+          <div class="register-login-btn">
+            <i class="fas fa-user"></i>
+            <a href="#">ثبت نام / ورود</a>
+          </div>
+        </div>
+      </nav>
+      <section class="slider">
+        <div class="slides">
+          <div class="item  active" id="slide1">
+            <img src="./slide/fcdasdaw24-d-1352x326-1.jpg" alt="" />
+          </div>
+          <div class="item " id="slide2">
+            <img src="./slide/game1.jpg" alt="" />
+            
+          </div>
+          <div class="item " id="slide3">
+            <img src="./slide/game2.jpg" alt="" />
+            
+          </div>
+        </div>
+        <div class="buttons">
+          <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="product-sec-new">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./ps4-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                کنسول پلی استیشن 4 اسلیم | یک ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./ps52t-300x300.jpg" alt="" />
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                پلی استیشن 5 – به همراه SSD دو ترابایت Full Game
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">900 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./xbox-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                کنسول بازی مایکروسافت مدل XBOX SERIES S ظرفیت 512 گیگابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">700 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./xboxgold-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                کنسول بازی مایکروسافت مدل XBOX SERIES S ظرفیت 512 گیگابایت به همراه کارت طلایی نصب بازی
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">600 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="supper-offer-section">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="supper-offer-box">
+              <span class="supper-offer-box-title">
+                پیشنهاد شگفت انگیز
+              </span>
+              <div class="body">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image-container">
+                      <img src="./Xiaomi-HiFi-Headphones-600x600.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="spesification">
+                      <div class="price-row">
+                        <div class="price">1 میلیون تومان</div>
+                        <div class="off">60 % تخفیف</div>
+                      </div>
+                      <div class="title">هدست ایسوس مدل Strix</div>
+                      <div class="counter-down">
+                        <span id="seconds">40</span> :
+                        <span id="minutes">26</span> :
+                        <span id="hours">19</span>
+                      </div>
+                      <div class="remaining-time">
+                        زمان باقی مانده تا پایان سفارش
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="banner">
+              <img src="./friday.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dragble-list">
+        <div class="title">
+          <span>هندزفری ها</span>
+        </div>
+        <div id="owl-product" class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/Apple-AirPods-Pro-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هدفون بی‌ سیم اپل مدل AirPods Pro همراه با محفظه شارژ
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">900 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/chernoble-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                بازی Chernobylite مخصوص PS5
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">400 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/eldenring-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                بازی Elden Ring مخصوص PS5
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">300 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/fifa2023-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                بازی FIFA 23 مخصوص PS5
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">600 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/horizon-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                بازی Horizon Forbidden West مخصوص PS5
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">800 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/imac-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                کامپیوتر همه کاره 24 اینچی اپل مدل iMac-E 2021
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">999هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/ps5-pink-2ds-750x750-1-350x350.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                پلی استیشن 5 دیسک خور
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">950 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/snipers-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                بازی Sniper Elite 5 مخصوص PS5
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">250 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./picture/XPS-9310-300x300.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                لپ تاپ 13.4 اینچی دل مدل XPS 9310 M3300
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">980 هزار تومان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علافه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="right">
+            <div class="title">
+              درباره ما
+            </div>
+            <div class="des">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="left">
+            <div class="title">
+              ما را در شبکه های اجتماعی دنبال کنید 
+            </div>
+            <div class="socials">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-telegram-plane"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        کلیه حقوق محفوظ می باشد 2019 ©
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jquery.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+  </body>
+</html>
